@@ -1,4 +1,4 @@
-#MineriaForetell/src/java/
+#MineriaForetell/src
 This folder contains Model(Model represents an object or JAVA POJO carrying data. It can also have logic to update controller if its data changes.)<br>
 Controller - Controller acts on both model and view. It controls the data flow into model object and updates the view whenever data changes. It keeps view and model separate.<br>
 Servlets : *.java<br>
