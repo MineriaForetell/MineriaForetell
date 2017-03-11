@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/MiningProcessSchema?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
+    <mapping class="Model.EstimatedProfit"/>
+    <mapping class="Model.FileDetails"/>
+    <mapping class="Model.LoginInfo"/>
+    <mapping class="Model.MineralDetails"/>
+    <mapping class="Model.MineriaDetails"/>
+    <mapping class="Model.ProjectDetails"/>
+    <mapping class="Model.ProjectUserDetails"/>
+    <mapping class="Model.PointDetails"/>
+    <mapping class="Model.PointReadings"/>
+    <mapping class="Model.ReadingReportDetails"/>
+    <mapping class="Model.TaskDetails"/>
+    <mapping class="Model.UserInfo"/>
+  </session-factory>
+</hibernate-configuration>

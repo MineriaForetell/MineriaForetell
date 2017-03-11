@@ -1,0 +1,332 @@
+fieldset {
+    border: none;
+}
+.fabigfont{
+
+    top: 40%;
+    font-size: 50px;
+}
+#navthing fieldset label{
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    left: 27px;
+}
+.login {
+    position: absolute;
+    width: 350px;
+    display: none;
+    margin-left: 580px;
+
+    z-index: 140;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid #ECF0F1;
+    left: 36%;
+    position: absolute;
+    top: -10px;
+}
+
+.formholder {
+    background: #ecf0f1;
+    width: 350px;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-left: -30%;
+}
+.formholder input[type="email"], .formholder input[type="password"] {
+    padding: 7px 5px;
+    margin: 10px 0;
+    width: 96%;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+.formholder input[type="email"]:focus, .formholder input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #1abc9c;
+}
+.formholder input[type="submit"] {
+    background: #1abc9c;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.formholder input[type="submit"]:hover {
+    background: #1bc6a4;
+}
+
+.message-mail {
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+    border-radius: 5px;
+    margin: 3px 0;
+}
+.randompad {
+    padding: 10px;
+}
+
+.green {
+    color: #1abc9c;
+}
+/*---------------------*/
+
+.pic{
+    background-image: url("images/slider-1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.head_text{
+    font-size:20px;
+    line-height:30px;
+    color:#FFF;
+}
+
+.login_panel{
+    /*outline:2px solid #000;*/
+    padding:10px;
+}
+
+#registration{
+    color:white;
+}
+#register_wrapper
+{
+    position: relative;
+    width: 100%;
+    display: none;
+    height: auto;
+    margin-left: 0;
+    position: relative;
+    z-index: 102;
+    color:white;
+}
+
+.sub-btn{
+    width:39%;
+    font-size: 20px;
+    color:#fac11b;
+    border: none;
+    background-color: #131e28;
+
+}
+
+.menudivs{
+    width: 100%;
+    height: 200px;
+    margin: 15px 15px;
+    padding: 50px;
+    border: solid 5px #fac11b;
+    color: #fac11b;
+    text-decoration: none;
+    text-align: center;
+    display: block;  
+
+}
+.font-fade{
+    transition: font-size 0.5s ease;
+    font-size:25px;
+}
+.font-fade:hover
+{
+
+    font-size:30px;
+}
+.addUserForm{
+    height: auto;
+    margin: 0;
+    margin-top:10px;
+    padding: 10px;
+    border: solid 2px #fac11b;
+    font-size: 25px;
+    color: #fac11b;
+    text-decoration: none;
+    text-align: center;
+    display: block;  
+}
+
+/*-------------------user profile dropdown button-------*/
+.profile-shape{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 22px;
+    margin: 5px;
+    padding: 0px;
+    left: 767px;
+}
+
+/*---------------------checkbox and dropdown-----------*/
+AndaleMono, monospace{
+
+    color: #fff;
+    padding: 50px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #374954;
+}
+
+.dropdown dd,
+.dropdown dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown ul {
+    margin: -1px 0 0 0;
+}
+
+.dropdown dd {
+    position: relative;
+}
+
+
+.dropdown dt a {
+    background-color: #FFFFFF;
+    display: block;
+    padding: 3px 20px 0px 10px;
+    min-height: 25px;
+    line-height: 24px;
+    overflow: hidden;
+    border: 0;
+    width: 30%;
+    color: #ABA9B1;
+}
+
+.dropdown dt a span,
+.multiSel span {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 3px 2px 0;
+}
+
+.dropdown dd ul {
+    background-color: #4F6877;
+    border: 0;
+    color: #fff;
+    display: none;
+    left: 0px;
+    padding: 2px 15px 2px 5px;
+    position: absolute;
+    top: 2px;
+    width: 280px;
+    list-style: none;
+    height: 100px;
+    overflow: auto;
+}
+
+.dropdown span.value {
+    display: none;
+}
+
+.dropdown dd ul li a {
+    padding: 5px;
+    display: block;
+}
+
+.dropdown dd ul li a:hover {
+    background-color: #fff;
+}
+
+.paddingsetter-left{
+    padding: 10px;
+    left: 14px;
+    position: inherit;
+    top: 15px;
+}
+.marginsetter-left{
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+
+.message-mail2  {
+    outline: none;
+
+    padding: 10px;
+    font-size: 15px;
+
+    border-radius: 5px;
+    margin: 3px 0;
+
+}
+.padding-10{
+    padding:10px;
+}
+
+.message-mail1  {
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 3px 0;
+    font-size: 18px;
+    color: #90a3b5;
+}
+.reporttext{
+    font-size:20px;
+    padding:2px;
+    text-align: left;
+}
+
+.fullwidth{
+    width:100%;
+}
+
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+    z-index: 900;
+}
+
+input[type="text"],.black-bold{
+    font-size: 15px;
+    color: black;
+    /*font-weight: bolder;*/
+}
+
+.activeclassic{
+    background-color: #fac11c;
+}
+
+.stickyfooter{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.roundbuttons{
+    width: 230px;
+    height: 100px;
+    background-color:#fac11b;
+    color:black;
+}
+
+.roundbuttons1{
+    padding: 10px;
+    width: 80px;
+    height: 65px;
+    background-color:#fac11b;
+    color:black;
+    border-radius: 50%;
+}
