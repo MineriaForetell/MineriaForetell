@@ -1,0 +1,33 @@
+Mining4Cast
+
+-Project Definition
+
+-->Mining forecast is a system that takes the drilled data as input, processes it and forecasts the quantity of iron ore, coal & other minerals.
+-->It also shows the results related to the efforts required for mining, schedule and cost of mining as output. 
+-->The system is helpful in predicting whether the land is suitable for mining and the client should buy that land or not.
+
+-Overview of Project
+
+-->The system firstly takes sample drilled file and historical data as input which is an unstructured format.
+-->It analysis the input data,parses it and converts the data into structured format.
+-->It uses the parsed data and prepares the graphs for density and cost.
+-->It displays the efforts and schedule required for mining.
+-->Finally it generates the report and gives suggestion whether the land is suitable for mining and the client should buy that land or not according to his budget.
+
+-Innovation
+
+-->The system gives precise cost for sample drilling based on historical data.
+-->It gives effort estimation and the cost of mining using Big Data .
+
+-Scope
+
+-->Data analysis and processing using Big Data
+-->Effort estimation
+-->Cost deduction
+-->Provides Suggestion
+
+
+-Technology
+-->Big Data 
+-->Java
+
